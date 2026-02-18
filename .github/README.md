@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-comprehend`](https://www.npmjs.com/package/@aws-sdk/client-comprehend/v/3.460.0).
+[`@aws-sdk/client-comprehend`](https://www.npmjs.com/package/@aws-sdk/client-comprehend/v/3.461.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.460.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.461.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-/lACdDxdeE5jC0RY5H3BD/xtQ+9NTTRuwuEnaxCSUvNRy2pKdETJBDC9e1aYJ6TO
+sha384-KJSpdsTZMnIclk1moXEUPXL3XE5Sf+blZC7oLt24X90GvD/PdDc0EK2jg4PYa3z7
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-comprehend": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.460.0/index.min.mjs"
+            "@aws-sdk/client-comprehend": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.461.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.460.0/index.min.mjs": "sha384-/lACdDxdeE5jC0RY5H3BD/xtQ+9NTTRuwuEnaxCSUvNRy2pKdETJBDC9e1aYJ6TO"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.461.0/index.min.mjs": "sha384-KJSpdsTZMnIclk1moXEUPXL3XE5Sf+blZC7oLt24X90GvD/PdDc0EK2jg4PYa3z7"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-comprehend": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.460.0/index.min.mjs"
+                        "@aws-sdk/client-comprehend": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.461.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.460.0/index.min.mjs": "sha384-/lACdDxdeE5jC0RY5H3BD/xtQ+9NTTRuwuEnaxCSUvNRy2pKdETJBDC9e1aYJ6TO"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-comprehend@3.461.0/index.min.mjs": "sha384-KJSpdsTZMnIclk1moXEUPXL3XE5Sf+blZC7oLt24X90GvD/PdDc0EK2jg4PYa3z7"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.460.0`)
+* Always pin to a specific version (`@3.461.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-comprehend/blob/refs/tags/3.460.0/LICENSE
+https://github.com/cloud-sdk-builds/client-comprehend/blob/refs/tags/3.461.0/LICENSE
 ```
 
 ---
